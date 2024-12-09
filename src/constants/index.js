@@ -251,6 +251,27 @@ const projects = [
     image: "src/assets/tech/mint.PNG",
     source_code_link: "https://github.com/Esam-jr/MINT-Vacancy",
   },
+  {
+    name: "My Portfolio",
+    description:
+      " A 3D portfolio website using React and Three.js to showcase my skills and projects in an interactive, visually engaging way. The website features dynamic 3D elements and animations, providing a unique user experience while navigating through.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Threejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "src/assets/tech/portfolio.PNG",
+    source_code_link: "https://github.com/Esam-jr/my_port",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
