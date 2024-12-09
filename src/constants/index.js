@@ -198,7 +198,7 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
-    image: "src/assets/tech/Admin_Dash.PNG",
+    image: "/Admin_Dash.PNG",
     source_code_link: "https://github.com/Esam-jr/Admin-Dashboard",
   },
   {
@@ -219,7 +219,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/tech/large.JPG",
+    image: "/large.JPG",
     source_code_link: "https://github.com/Esam-jr/Recipe-finder-app",
   },
   {
@@ -248,7 +248,7 @@ const projects = [
         color: "purple-text-gradient",
       },
     ],
-    image: "src/assets/tech/mint.PNG",
+    image: "/mint.PNG",
     source_code_link: "https://github.com/Esam-jr/MINT-Vacancy",
   },
   {
@@ -269,7 +269,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "src/assets/tech/portfolio.PNG",
+    image: "/portfolio.PNG",
     source_code_link: "https://github.com/Esam-jr/my_port",
   },
 ];
