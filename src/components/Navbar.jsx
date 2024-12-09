@@ -79,7 +79,6 @@ const Navbar = () => {
           >
             <FaGithub className="text-white text-2xl hover:text-secondary transition" />
           </a>
-          {/* LinkedIn Link */}
           <a
             href="https://www.linkedin.com/in/esmael-sabir/"
             target="_blank"
