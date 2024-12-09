@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { FaGithub, FaLinkedin } from "react-icons/fa"; // Importing GitHub and LinkedIn icons
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -47,7 +48,7 @@ const Navbar = () => {
             alt="logo"
             className="w-9 h-9 object-contain rounded-lg"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Esmael &nbsp;
             <span className="sm:block hidden"> | Web development</span>
           </p>
@@ -66,6 +67,27 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className="sm:flex hidden items-center gap-6">
+          {" "}
+          {/* Right-aligned section */}
+          {/* GitHub Link */}
+          <a
+            href="https://github.com/Esam-jr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="text-white text-2xl hover:text-secondary transition" />
+          </a>
+          {/* LinkedIn Link */}
+          <a
+            href="https://www.linkedin.com/in/esmael-sabir/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-white text-2xl hover:text-secondary transition" />
+          </a>
+        </div>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
